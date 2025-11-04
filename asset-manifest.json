@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/Saturn-22/blackjack/static/css/main.36e7ecf9.css",
-    "main.js": "/Saturn-22/blackjack/static/js/main.bc476b36.js",
-    "static/js/206.81f26a7f.chunk.js": "/Saturn-22/blackjack/static/js/206.81f26a7f.chunk.js",
-    "static/media/userInfo.jpeg": "/Saturn-22/blackjack/static/media/userInfo.31ec24ac0b5d7cd081c4.jpeg",
-    "static/media/register.jpeg": "/Saturn-22/blackjack/static/media/register.7682d2665721693829f8.jpeg",
-    "static/media/withdraw.jpeg": "/Saturn-22/blackjack/static/media/withdraw.288dc1823eb3a9c3168e.jpeg",
-    "static/media/recharge.jpeg": "/Saturn-22/blackjack/static/media/recharge.3b14cba11b4f4e24d247.jpeg",
-    "static/media/changePassword.jpeg": "/Saturn-22/blackjack/static/media/changePassword.adb3f4744dfc2e7d00dd.jpeg",
-    "static/media/login.jpeg": "/Saturn-22/blackjack/static/media/login.ba8798b8bf5dbeccfa4b.jpeg",
-    "static/media/game2.jpeg": "/Saturn-22/blackjack/static/media/game2.ad93d58227cb348631df.jpeg",
-    "static/media/homepage.jpeg": "/Saturn-22/blackjack/static/media/homepage.82b447e4d2cf1df561f2.jpeg",
-    "static/media/game1.jpeg": "/Saturn-22/blackjack/static/media/game1.dc220a437c8f3b04ba3e.jpeg",
-    "index.html": "/Saturn-22/blackjack/index.html"
+    "main.css": "/blackjack/static/css/main.36e7ecf9.css",
+    "main.js": "/blackjack/static/js/main.f345327b.js",
+    "static/js/206.81f26a7f.chunk.js": "/blackjack/static/js/206.81f26a7f.chunk.js",
+    "static/media/userInfo.jpeg": "/blackjack/static/media/userInfo.31ec24ac0b5d7cd081c4.jpeg",
+    "static/media/register.jpeg": "/blackjack/static/media/register.7682d2665721693829f8.jpeg",
+    "static/media/withdraw.jpeg": "/blackjack/static/media/withdraw.288dc1823eb3a9c3168e.jpeg",
+    "static/media/recharge.jpeg": "/blackjack/static/media/recharge.3b14cba11b4f4e24d247.jpeg",
+    "static/media/changePassword.jpeg": "/blackjack/static/media/changePassword.adb3f4744dfc2e7d00dd.jpeg",
+    "static/media/login.jpeg": "/blackjack/static/media/login.ba8798b8bf5dbeccfa4b.jpeg",
+    "static/media/game2.jpeg": "/blackjack/static/media/game2.ad93d58227cb348631df.jpeg",
+    "static/media/homepage.jpeg": "/blackjack/static/media/homepage.82b447e4d2cf1df561f2.jpeg",
+    "static/media/game1.jpeg": "/blackjack/static/media/game1.dc220a437c8f3b04ba3e.jpeg",
+    "index.html": "/blackjack/index.html"
   },
   "entrypoints": [
     "static/css/main.36e7ecf9.css",
-    "static/js/main.bc476b36.js"
+    "static/js/main.f345327b.js"
   ]
 }
