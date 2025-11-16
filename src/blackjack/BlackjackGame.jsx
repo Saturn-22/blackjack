@@ -570,6 +570,15 @@ const handleSettle = async (settlementData) => {
     try {
         const signer = await provider.getSigner();
         const blackjackWithSigner = blackjackContract.connect(signer);
+        try {
+            const vaultWithSigner = vaultContract.connect(signer);
+            const activityTx = await vaultWithSigner.updateLastActivity();
+            await activityTx.wait(1); 
+            console.log("User session refreshed before settlement.");
+        } catch (sessionError) {
+            
+            console.warn("Update activity before settlement failed (continuing anyway):", sessionError.reason || sessionError.message);
+        }
         const settleArgs = [
             currentRoundId, settlementData.holeCardId, settlementData.holeSalt, settlementData.holeProof,
             settlementData.initial3.map(r => ({ pos: r.pos, cardId: r.cardId, salt: r.salt, proof: r.proof })),
